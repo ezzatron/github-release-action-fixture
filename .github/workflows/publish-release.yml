@@ -13,5 +13,4 @@ jobs:
     - name: Publish release
       uses: eloquent/github-release-action@main
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         DEBUG: 'true'
