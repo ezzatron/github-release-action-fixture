@@ -12,5 +12,3 @@ jobs:
       uses: actions/checkout@v2
     - name: Publish release
       uses: eloquent/github-release-action@main
-      env:
-        DEBUG: 'true'
